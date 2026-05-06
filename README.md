@@ -1,6 +1,4 @@
 <div align="center">
-
 <!-- logo -->
-<img src="logo.svg" alt="Logo" width="200">
-
+<img src="logo.svg" alt="Banner" width="100%">
 </div>
