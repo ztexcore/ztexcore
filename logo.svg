@@ -1,0 +1,263 @@
+<svg width="865" viewBox="0.7665113806724548 28.438037872314453 664.8352342247963 223.66132736206055" xmlns="http://www.w3.org/2000/svg" role="img" height="291" style="">
+  <title>ZTEXCORE - Hacker Matrix Animation</title>
+  <desc>Red matrix rain background with ZTEXCORE in arcade pixel font</desc>
+
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+
+      .matrix-char {
+        font-family: 'Courier New', monospace;
+        font-size: 13px;
+        fill: #cc0000;
+      }
+
+      .matrix-char.bright { fill: #ff2222; }
+      .matrix-char.dim    { fill: #550000; }
+      .matrix-char.white  { fill: #ffaaaa; }
+
+      .name-text {
+        font-family: 'Press Start 2P', 'Courier New', monospace;
+        font-size: 42px;
+        font-weight: 900;
+        fill: #ff0000;
+        letter-spacing: 4px;
+      }
+
+      .tagline {
+        font-family: 'Press Start 2P', 'Courier New', monospace;
+        font-size: 10px;
+        fill: #aa0000;
+        letter-spacing: 3px;
+      }
+
+      .scanline {
+        fill: none;
+        stroke: rgba(255,0,0,0.06);
+        stroke-width: 2;
+      }
+
+      /* Column drop animations */
+      @keyframes drop0  { 0%{transform:translateY(-200px)} 100%{transform:translateY(320px)} }
+      @keyframes drop1  { 0%{transform:translateY(-240px)} 100%{transform:translateY(320px)} }
+      @keyframes drop2  { 0%{transform:translateY(-180px)} 100%{transform:translateY(320px)} }
+      @keyframes drop3  { 0%{transform:translateY(-260px)} 100%{transform:translateY(320px)} }
+      @keyframes drop4  { 0%{transform:translateY(-150px)} 100%{transform:translateY(320px)} }
+      @keyframes drop5  { 0%{transform:translateY(-300px)} 100%{transform:translateY(320px)} }
+      @keyframes drop6  { 0%{transform:translateY(-100px)} 100%{transform:translateY(320px)} }
+      @keyframes drop7  { 0%{transform:translateY(-220px)} 100%{transform:translateY(320px)} }
+      @keyframes drop8  { 0%{transform:translateY(-170px)} 100%{transform:translateY(320px)} }
+      @keyframes drop9  { 0%{transform:translateY(-280px)} 100%{transform:translateY(320px)} }
+      @keyframes drop10 { 0%{transform:translateY(-130px)} 100%{transform:translateY(320px)} }
+      @keyframes drop11 { 0%{transform:translateY(-190px)} 100%{transform:translateY(320px)} }
+      @keyframes drop12 { 0%{transform:translateY(-250px)} 100%{transform:translateY(320px)} }
+      @keyframes drop13 { 0%{transform:translateY(-210px)} 100%{transform:translateY(320px)} }
+      @keyframes drop14 { 0%{transform:translateY(-160px)} 100%{transform:translateY(320px)} }
+      @keyframes drop15 { 0%{transform:translateY(-310px)} 100%{transform:translateY(320px)} }
+      @keyframes drop16 { 0%{transform:translateY(-140px)} 100%{transform:translateY(320px)} }
+      @keyframes drop17 { 0%{transform:translateY(-230px)} 100%{transform:translateY(320px)} }
+      @keyframes drop18 { 0%{transform:translateY(-120px)} 100%{transform:translateY(320px)} }
+      @keyframes drop19 { 0%{transform:translateY(-270px)} 100%{transform:translateY(320px)} }
+      @keyframes drop20 { 0%{transform:translateY(-200px)} 100%{transform:translateY(320px)} }
+      @keyframes drop21 { 0%{transform:translateY(-155px)} 100%{transform:translateY(320px)} }
+      @keyframes drop22 { 0%{transform:translateY(-290px)} 100%{transform:translateY(320px)} }
+      @keyframes drop23 { 0%{transform:translateY(-175px)} 100%{transform:translateY(320px)} }
+      @keyframes drop24 { 0%{transform:translateY(-245px)} 100%{transform:translateY(320px)} }
+      @keyframes drop25 { 0%{transform:translateY(-135px)} 100%{transform:translateY(320px)} }
+      @keyframes drop26 { 0%{transform:translateY(-215px)} 100%{transform:translateY(320px)} }
+      @keyframes drop27 { 0%{transform:translateY(-185px)} 100%{transform:translateY(320px)} }
+      @keyframes drop28 { 0%{transform:translateY(-265px)} 100%{transform:translateY(320px)} }
+      @keyframes drop29 { 0%{transform:translateY(-145px)} 100%{transform:translateY(320px)} }
+      @keyframes drop30 { 0%{transform:translateY(-225px)} 100%{transform:translateY(320px)} }
+      @keyframes drop31 { 0%{transform:translateY(-195px)} 100%{transform:translateY(320px)} }
+      @keyframes drop32 { 0%{transform:translateY(-255px)} 100%{transform:translateY(320px)} }
+      @keyframes drop33 { 0%{transform:translateY(-115px)} 100%{transform:translateY(320px)} }
+      @keyframes drop34 { 0%{transform:translateY(-285px)} 100%{transform:translateY(320px)} }
+      @keyframes drop35 { 0%{transform:translateY(-165px)} 100%{transform:translateY(320px)} }
+      @keyframes drop36 { 0%{transform:translateY(-235px)} 100%{transform:translateY(320px)} }
+      @keyframes drop37 { 0%{transform:translateY(-205px)} 100%{transform:translateY(320px)} }
+      @keyframes drop38 { 0%{transform:translateY(-125px)} 100%{transform:translateY(320px)} }
+      @keyframes drop39 { 0%{transform:translateY(-275px)} 100%{transform:translateY(320px)} }
+      @keyframes drop40 { 0%{transform:translateY(-198px)} 100%{transform:translateY(320px)} }
+      @keyframes drop41 { 0%{transform:translateY(-238px)} 100%{transform:translateY(320px)} }
+      @keyframes drop42 { 0%{transform:translateY(-178px)} 100%{transform:translateY(320px)} }
+      @keyframes drop43 { 0%{transform:translateY(-258px)} 100%{transform:translateY(320px)} }
+      @keyframes drop44 { 0%{transform:translateY(-148px)} 100%{transform:translateY(320px)} }
+      @keyframes drop45 { 0%{transform:translateY(-298px)} 100%{transform:translateY(320px)} }
+      @keyframes drop46 { 0%{transform:translateY(-108px)} 100%{transform:translateY(320px)} }
+      @keyframes drop47 { 0%{transform:translateY(-218px)} 100%{transform:translateY(320px)} }
+
+      @keyframes char-flicker {
+        0%,100%{opacity:1} 33%{opacity:0.3} 66%{opacity:0.7}
+      }
+
+      @keyframes name-pulse {
+        0%,100% { opacity:1; }
+        50%      { opacity:0.85; }
+      }
+
+      @keyframes name-glitch {
+        0%,88%,100% { transform:translate(0,0); }
+        89%          { transform:translate(-3px,0); }
+        90%          { transform:translate(3px,1px); }
+        91%          { transform:translate(0,0); }
+        94%          { transform:translate(2px,-1px); }
+        95%          { transform:translate(0,0); }
+      }
+
+      @keyframes cursor-blink {
+        0%,100%{opacity:1} 50%{opacity:0}
+      }
+
+      .col0  { animation: drop0  3.1s linear infinite; }
+      .col1  { animation: drop1  2.7s linear infinite; }
+      .col2  { animation: drop2  3.4s linear infinite; }
+      .col3  { animation: drop3  2.5s linear infinite; }
+      .col4  { animation: drop4  3.7s linear infinite; }
+      .col5  { animation: drop5  2.9s linear infinite; }
+      .col6  { animation: drop6  3.2s linear infinite; }
+      .col7  { animation: drop7  2.6s linear infinite; }
+      .col8  { animation: drop8  3.5s linear infinite; }
+      .col9  { animation: drop9  2.8s linear infinite; }
+      .col10 { animation: drop10 3.0s linear infinite; }
+      .col11 { animation: drop11 3.3s linear infinite; }
+      .col12 { animation: drop12 2.4s linear infinite; }
+      .col13 { animation: drop13 3.6s linear infinite; }
+      .col14 { animation: drop14 2.7s linear infinite; }
+      .col15 { animation: drop15 3.1s linear infinite; }
+      .col16 { animation: drop16 3.8s linear infinite; }
+      .col17 { animation: drop17 2.5s linear infinite; }
+      .col18 { animation: drop18 3.4s linear infinite; }
+      .col19 { animation: drop19 2.9s linear infinite; }
+      .col20 { animation: drop20 3.2s linear infinite; }
+      .col21 { animation: drop21 2.6s linear infinite; }
+      .col22 { animation: drop22 3.5s linear infinite; }
+      .col23 { animation: drop23 3.0s linear infinite; }
+      .col24 { animation: drop24 2.8s linear infinite; }
+      .col25 { animation: drop25 3.7s linear infinite; }
+      .col26 { animation: drop26 2.4s linear infinite; }
+      .col27 { animation: drop27 3.3s linear infinite; }
+      .col28 { animation: drop28 2.7s linear infinite; }
+      .col29 { animation: drop29 3.9s linear infinite; }
+      .col30 { animation: drop30 2.5s linear infinite; }
+      .col31 { animation: drop31 3.1s linear infinite; }
+      .col32 { animation: drop32 2.9s linear infinite; }
+      .col33 { animation: drop33 3.6s linear infinite; }
+      .col34 { animation: drop34 2.6s linear infinite; }
+      .col35 { animation: drop35 3.4s linear infinite; }
+      .col36 { animation: drop36 2.8s linear infinite; }
+      .col37 { animation: drop37 3.2s linear infinite; }
+      .col38 { animation: drop38 3.8s linear infinite; }
+      .col39 { animation: drop39 2.4s linear infinite; }
+      .col40 { animation: drop40 3.0s linear infinite; }
+      .col41 { animation: drop41 2.7s linear infinite; }
+      .col42 { animation: drop42 3.5s linear infinite; }
+      .col43 { animation: drop43 2.5s linear infinite; }
+      .col44 { animation: drop44 3.3s linear infinite; }
+      .col45 { animation: drop45 2.9s linear infinite; }
+      .col46 { animation: drop46 3.7s linear infinite; }
+      .col47 { animation: drop47 2.6s linear infinite; }
+
+      .name-group { animation: name-glitch 7s infinite, name-pulse 2s ease-in-out infinite; }
+      .cursor     { animation: cursor-blink 1s step-end infinite; }
+    </style>
+
+    <clipPath id="frame">
+      <rect x="0" y="0" width="680" height="280"/>
+    </clipPath>
+  </defs>
+
+  <!-- Black background -->
+  <rect width="680" height="280" fill="#000000"/>
+
+  <!-- Matrix rain columns clipped to frame -->
+  <g clip-path="url(#frame)">
+    <!-- 48 columns, x = col * 14, chars stacked every 16px -->
+    <g class="col0 matrix-char" transform="translate(4,0)"><text y="16">Z</text><text y="32" class="bright">1</text><text y="48">T</text><text y="64" class="dim">0</text><text y="80">E</text><text y="96" class="white">X</text><text y="112">1</text><text y="128" class="dim">C</text><text y="144">0</text><text y="160">R</text><text y="176" class="bright">E</text><text y="192" class="dim">0</text><text y="208">1</text></g>
+    <g class="col1 matrix-char" transform="translate(18,0)"><text y="16" class="bright">0</text><text y="32">X</text><text y="48" class="dim">1</text><text y="64">Z</text><text y="80" class="white">0</text><text y="96">T</text><text y="112" class="dim">E</text><text y="128">1</text><text y="144" class="bright">X</text><text y="160">0</text><text y="176">C</text><text y="192" class="dim">1</text></g>
+    <g class="col2 matrix-char" transform="translate(32,0)"><text y="16">1</text><text y="32" class="dim">E</text><text y="48">0</text><text y="64" class="bright">R</text><text y="80">1</text><text y="96" class="dim">Z</text><text y="112">0</text><text y="128">T</text><text y="144" class="white">1</text><text y="160" class="dim">E</text><text y="176">0</text><text y="192">X</text><text y="208" class="bright">1</text></g>
+    <g class="col3 matrix-char" transform="translate(46,0)"><text y="16" class="dim">C</text><text y="32">0</text><text y="48" class="bright">1</text><text y="64">O</text><text y="80" class="dim">1</text><text y="96">R</text><text y="112">0</text><text y="128" class="white">E</text><text y="144">1</text><text y="160" class="dim">Z</text><text y="176">0</text></g>
+    <g class="col4 matrix-char" transform="translate(60,0)"><text y="16">1</text><text y="32" class="bright">T</text><text y="48">0</text><text y="64" class="dim">X</text><text y="80">1</text><text y="96">C</text><text y="112" class="white">0</text><text y="128">1</text><text y="144" class="dim">O</text><text y="160">0</text><text y="176" class="bright">R</text><text y="192">1</text><text y="208" class="dim">E</text></g>
+    <g class="col5 matrix-char" transform="translate(74,0)"><text y="16" class="dim">0</text><text y="32">Z</text><text y="48" class="bright">1</text><text y="64">T</text><text y="80">0</text><text y="96" class="dim">E</text><text y="112">1</text><text y="128" class="white">X</text><text y="144">0</text><text y="160">C</text><text y="176" class="dim">1</text><text y="192">O</text></g>
+    <g class="col6 matrix-char" transform="translate(88,0)"><text y="16">R</text><text y="32" class="dim">0</text><text y="48">E</text><text y="64" class="bright">1</text><text y="80">Z</text><text y="96">0</text><text y="112" class="dim">T</text><text y="128">1</text><text y="144">X</text><text y="160" class="white">0</text><text y="176">C</text><text y="192" class="dim">1</text><text y="208">O</text></g>
+    <g class="col7 matrix-char" transform="translate(102,0)"><text y="16" class="bright">1</text><text y="32">R</text><text y="48" class="dim">0</text><text y="64">E</text><text y="80">1</text><text y="96" class="bright">Z</text><text y="112">0</text><text y="128" class="dim">T</text><text y="144">1</text><text y="160">X</text><text y="176">0</text></g>
+    <g class="col8 matrix-char" transform="translate(116,0)"><text y="16" class="dim">C</text><text y="32">1</text><text y="48" class="white">O</text><text y="64">0</text><text y="80" class="dim">R</text><text y="96">1</text><text y="112">E</text><text y="128" class="bright">0</text><text y="144">Z</text><text y="160" class="dim">1</text><text y="176">T</text><text y="192">0</text><text y="208" class="bright">X</text></g>
+    <g class="col9 matrix-char" transform="translate(130,0)"><text y="16">1</text><text y="32" class="dim">C</text><text y="48">0</text><text y="64" class="bright">1</text><text y="80">O</text><text y="96">0</text><text y="112" class="dim">R</text><text y="128">1</text><text y="144" class="white">E</text><text y="160">0</text></g>
+    <g class="col10 matrix-char" transform="translate(144,0)"><text y="16" class="bright">Z</text><text y="32">1</text><text y="48" class="dim">T</text><text y="64">0</text><text y="80">E</text><text y="96" class="white">1</text><text y="112">X</text><text y="128" class="dim">0</text><text y="144">C</text><text y="160">1</text><text y="176" class="bright">O</text><text y="192">0</text></g>
+    <g class="col11 matrix-char" transform="translate(158,0)"><text y="16" class="dim">R</text><text y="32">1</text><text y="48">E</text><text y="64" class="bright">0</text><text y="80">1</text><text y="96" class="dim">Z</text><text y="112">0</text><text y="128">T</text><text y="144" class="white">1</text><text y="160">X</text><text y="176">0</text></g>
+    <g class="col12 matrix-char" transform="translate(172,0)"><text y="16">C</text><text y="32" class="dim">1</text><text y="48" class="bright">O</text><text y="64">0</text><text y="80">R</text><text y="96">1</text><text y="112" class="dim">E</text><text y="128">0</text><text y="144">Z</text><text y="160" class="bright">1</text><text y="176">T</text></g>
+    <g class="col13 matrix-char" transform="translate(186,0)"><text y="16" class="dim">0</text><text y="32">X</text><text y="48">1</text><text y="64" class="white">C</text><text y="80" class="dim">0</text><text y="96">O</text><text y="112">1</text><text y="128" class="bright">R</text><text y="144">0</text><text y="160" class="dim">E</text></g>
+    <g class="col14 matrix-char" transform="translate(200,0)"><text y="16">1</text><text y="32" class="bright">Z</text><text y="48" class="dim">0</text><text y="64">T</text><text y="80">1</text><text y="96" class="dim">E</text><text y="112">0</text><text y="128">X</text><text y="144" class="white">1</text><text y="160">C</text><text y="176" class="dim">0</text></g>
+    <g class="col15 matrix-char" transform="translate(214,0)"><text y="16" class="dim">O</text><text y="32">1</text><text y="48" class="bright">R</text><text y="64">0</text><text y="80" class="dim">E</text><text y="96">1</text><text y="112">Z</text><text y="128" class="white">0</text><text y="144">T</text><text y="160" class="dim">1</text></g>
+    <g class="col16 matrix-char" transform="translate(228,0)"><text y="16">X</text><text y="32" class="dim">0</text><text y="48">C</text><text y="64" class="bright">1</text><text y="80">O</text><text y="96" class="dim">0</text><text y="112">R</text><text y="128">1</text><text y="144" class="white">E</text><text y="160">0</text><text y="176" class="dim">Z</text></g>
+    <g class="col17 matrix-char" transform="translate(242,0)"><text y="16" class="bright">1</text><text y="32">T</text><text y="48" class="dim">0</text><text y="64">X</text><text y="80">1</text><text y="96">C</text><text y="112" class="dim">0</text><text y="128" class="bright">O</text><text y="144">1</text><text y="160">R</text><text y="176" class="dim">0</text></g>
+    <g class="col18 matrix-char" transform="translate(256,0)"><text y="16" class="dim">E</text><text y="32">1</text><text y="48" class="bright">Z</text><text y="64">0</text><text y="80" class="dim">T</text><text y="96">1</text><text y="112">E</text><text y="128" class="white">0</text><text y="144">X</text><text y="160" class="dim">1</text><text y="176">C</text><text y="192">0</text></g>
+    <g class="col19 matrix-char" transform="translate(270,0)"><text y="16">O</text><text y="32" class="bright">1</text><text y="48">R</text><text y="64" class="dim">0</text><text y="80">E</text><text y="96">1</text><text y="112" class="white">Z</text><text y="128">0</text><text y="144" class="dim">T</text><text y="160">1</text></g>
+    <g class="col20 matrix-char" transform="translate(284,0)"><text y="16" class="dim">X</text><text y="32">0</text><text y="48" class="bright">C</text><text y="64">1</text><text y="80">O</text><text y="96" class="dim">0</text><text y="112">R</text><text y="128">1</text><text y="144" class="white">E</text><text y="160">0</text><text y="176" class="bright">Z</text></g>
+    <g class="col21 matrix-char" transform="translate(298,0)"><text y="16">1</text><text y="32" class="dim">T</text><text y="48">0</text><text y="64">X</text><text y="80" class="bright">1</text><text y="96" class="dim">C</text><text y="112">0</text><text y="128">O</text><text y="144" class="white">1</text><text y="160">R</text></g>
+    <g class="col22 matrix-char" transform="translate(312,0)"><text y="16" class="dim">E</text><text y="32">0</text><text y="48" class="bright">Z</text><text y="64">1</text><text y="80" class="dim">T</text><text y="96">0</text><text y="112">E</text><text y="128" class="dim">1</text><text y="144" class="white">X</text><text y="160">0</text></g>
+    <g class="col23 matrix-char" transform="translate(326,0)"><text y="16">C</text><text y="32" class="bright">1</text><text y="48" class="dim">O</text><text y="64">0</text><text y="80">R</text><text y="96">1</text><text y="112" class="dim">E</text><text y="128">0</text><text y="144" class="bright">Z</text><text y="160">1</text><text y="176" class="dim">T</text></g>
+    <g class="col24 matrix-char" transform="translate(340,0)"><text y="16" class="dim">X</text><text y="32">0</text><text y="48">C</text><text y="64" class="bright">1</text><text y="80" class="dim">O</text><text y="96">0</text><text y="112">R</text><text y="128">1</text><text y="144" class="white">E</text><text y="160">0</text></g>
+    <g class="col25 matrix-char" transform="translate(354,0)"><text y="16">Z</text><text y="32" class="dim">1</text><text y="48" class="bright">T</text><text y="64">0</text><text y="80">X</text><text y="96" class="dim">1</text><text y="112">C</text><text y="128" class="white">0</text><text y="144">O</text><text y="160" class="bright">1</text></g>
+    <g class="col26 matrix-char" transform="translate(368,0)"><text y="16" class="dim">R</text><text y="32">0</text><text y="48">E</text><text y="64" class="bright">1</text><text y="80">Z</text><text y="96">0</text><text y="112" class="dim">T</text><text y="128">1</text><text y="144">X</text><text y="160" class="white">0</text><text y="176" class="dim">C</text></g>
+    <g class="col27 matrix-char" transform="translate(382,0)"><text y="16">O</text><text y="32" class="bright">1</text><text y="48" class="dim">R</text><text y="64">0</text><text y="80">E</text><text y="96">1</text><text y="112" class="white">Z</text><text y="128" class="dim">0</text><text y="144">T</text><text y="160">1</text></g>
+    <g class="col28 matrix-char" transform="translate(396,0)"><text y="16" class="dim">X</text><text y="32">0</text><text y="48" class="bright">C</text><text y="64">1</text><text y="80" class="dim">O</text><text y="96">0</text><text y="112">R</text><text y="128">1</text><text y="144" class="white">E</text><text y="160" class="dim">0</text></g>
+    <g class="col29 matrix-char" transform="translate(410,0)"><text y="16">Z</text><text y="32" class="dim">1</text><text y="48">T</text><text y="64" class="bright">0</text><text y="80">X</text><text y="96" class="dim">1</text><text y="112">C</text><text y="128">0</text><text y="144" class="white">O</text><text y="160">1</text><text y="176" class="dim">R</text></g>
+    <g class="col30 matrix-char" transform="translate(424,0)"><text y="16" class="bright">E</text><text y="32">0</text><text y="48" class="dim">Z</text><text y="64">1</text><text y="80">T</text><text y="96" class="dim">0</text><text y="112">X</text><text y="128" class="bright">1</text><text y="144">C</text><text y="160" class="dim">0</text><text y="176">O</text></g>
+    <g class="col31 matrix-char" transform="translate(438,0)"><text y="16">R</text><text y="32" class="bright">1</text><text y="48" class="dim">E</text><text y="64">0</text><text y="80">Z</text><text y="96">1</text><text y="112" class="white">T</text><text y="128" class="dim">0</text><text y="144">X</text><text y="160">1</text></g>
+    <g class="col32 matrix-char" transform="translate(452,0)"><text y="16" class="dim">C</text><text y="32">0</text><text y="48" class="bright">O</text><text y="64">1</text><text y="80" class="dim">R</text><text y="96">0</text><text y="112">E</text><text y="128">1</text><text y="144" class="white">Z</text><text y="160" class="dim">0</text></g>
+    <g class="col33 matrix-char" transform="translate(466,0)"><text y="16">T</text><text y="32" class="dim">1</text><text y="48">X</text><text y="64" class="bright">0</text><text y="80">C</text><text y="96" class="dim">1</text><text y="112">O</text><text y="128">0</text><text y="144" class="bright">R</text><text y="160">1</text><text y="176" class="dim">E</text></g>
+    <g class="col34 matrix-char" transform="translate(480,0)"><text y="16" class="dim">Z</text><text y="32">0</text><text y="48" class="white">T</text><text y="64">1</text><text y="80">X</text><text y="96" class="dim">0</text><text y="112">C</text><text y="128" class="bright">1</text><text y="144">O</text><text y="160" class="dim">0</text></g>
+    <g class="col35 matrix-char" transform="translate(494,0)"><text y="16">R</text><text y="32" class="bright">1</text><text y="48" class="dim">E</text><text y="64">0</text><text y="80">Z</text><text y="96">1</text><text y="112" class="dim">T</text><text y="128">0</text><text y="144" class="white">X</text><text y="160">1</text></g>
+    <g class="col36 matrix-char" transform="translate(508,0)"><text y="16" class="dim">C</text><text y="32">0</text><text y="48">O</text><text y="64" class="bright">1</text><text y="80" class="dim">R</text><text y="96">0</text><text y="112">E</text><text y="128">1</text><text y="144" class="dim">Z</text><text y="160">0</text><text y="176" class="bright">T</text></g>
+    <g class="col37 matrix-char" transform="translate(522,0)"><text y="16">X</text><text y="32" class="dim">1</text><text y="48" class="bright">C</text><text y="64">0</text><text y="80">O</text><text y="96" class="dim">1</text><text y="112">R</text><text y="128">0</text><text y="144" class="white">E</text><text y="160" class="dim">1</text></g>
+    <g class="col38 matrix-char" transform="translate(536,0)"><text y="16" class="dim">Z</text><text y="32">0</text><text y="48">T</text><text y="64" class="bright">1</text><text y="80" class="dim">X</text><text y="96">0</text><text y="112">C</text><text y="128" class="white">1</text><text y="144">O</text><text y="160" class="dim">0</text><text y="176">R</text></g>
+    <g class="col39 matrix-char" transform="translate(550,0)"><text y="16">E</text><text y="32" class="bright">1</text><text y="48" class="dim">Z</text><text y="64">0</text><text y="80">T</text><text y="96">1</text><text y="112" class="dim">X</text><text y="128">0</text><text y="144" class="bright">C</text><text y="160">1</text></g>
+    <g class="col40 matrix-char" transform="translate(564,0)"><text y="16" class="dim">O</text><text y="32">0</text><text y="48" class="white">R</text><text y="64">1</text><text y="80" class="dim">E</text><text y="96">0</text><text y="112">Z</text><text y="128" class="bright">1</text><text y="144">T</text><text y="160" class="dim">0</text></g>
+    <g class="col41 matrix-char" transform="translate(578,0)"><text y="16">X</text><text y="32" class="dim">1</text><text y="48">C</text><text y="64" class="bright">0</text><text y="80">O</text><text y="96" class="dim">1</text><text y="112">R</text><text y="128">0</text><text y="144" class="white">E</text><text y="160">1</text><text y="176" class="dim">Z</text></g>
+    <g class="col42 matrix-char" transform="translate(592,0)"><text y="16" class="bright">T</text><text y="32">0</text><text y="48" class="dim">X</text><text y="64">1</text><text y="80">C</text><text y="96" class="dim">0</text><text y="112">O</text><text y="128" class="bright">1</text><text y="144">R</text><text y="160">0</text></g>
+    <g class="col43 matrix-char" transform="translate(606,0)"><text y="16" class="dim">E</text><text y="32">1</text><text y="48" class="white">Z</text><text y="64">0</text><text y="80" class="dim">T</text><text y="96">1</text><text y="112">X</text><text y="128">0</text><text y="144" class="bright">C</text><text y="160" class="dim">1</text></g>
+    <g class="col44 matrix-char" transform="translate(620,0)"><text y="16">O</text><text y="32" class="bright">0</text><text y="48" class="dim">R</text><text y="64">1</text><text y="80">E</text><text y="96">0</text><text y="112" class="dim">Z</text><text y="128" class="white">1</text><text y="144">T</text><text y="160">0</text></g>
+    <g class="col45 matrix-char" transform="translate(634,0)"><text y="16" class="dim">X</text><text y="32">1</text><text y="48" class="bright">C</text><text y="64">0</text><text y="80">O</text><text y="96" class="dim">1</text><text y="112">R</text><text y="128">0</text><text y="144" class="white">E</text><text y="160" class="dim">1</text></g>
+    <g class="col46 matrix-char" transform="translate(648,0)"><text y="16">Z</text><text y="32" class="dim">0</text><text y="48">T</text><text y="64" class="bright">1</text><text y="80" class="dim">X</text><text y="96">0</text><text y="112">C</text><text y="128" class="white">1</text><text y="144">O</text><text y="160" class="dim">0</text></g>
+    <g class="col47 matrix-char" transform="translate(662,0)"><text y="16" class="bright">R</text><text y="32">1</text><text y="48" class="dim">E</text><text y="64">0</text><text y="80">Z</text><text y="96" class="dim">1</text><text y="112">T</text><text y="128">0</text><text y="144" class="white">X</text><text y="160" class="bright">1</text></g>
+  </g>
+
+  <!-- Dark overlay to make name pop -->
+  <rect width="680" height="280" fill="rgba(0,0,0,0.45)"/>
+
+  <!-- CRT scanlines -->
+  <line class="scanline" x1="0" y1="20" x2="680" y2="20"/>
+  <line class="scanline" x1="0" y1="40" x2="680" y2="40"/>
+  <line class="scanline" x1="0" y1="60" x2="680" y2="60"/>
+  <line class="scanline" x1="0" y1="80" x2="680" y2="80"/>
+  <line class="scanline" x1="0" y1="100" x2="680" y2="100"/>
+  <line class="scanline" x1="0" y1="120" x2="680" y2="120"/>
+  <line class="scanline" x1="0" y1="140" x2="680" y2="140"/>
+  <line class="scanline" x1="0" y1="160" x2="680" y2="160"/>
+  <line class="scanline" x1="0" y1="180" x2="680" y2="180"/>
+  <line class="scanline" x1="0" y1="200" x2="680" y2="200"/>
+  <line class="scanline" x1="0" y1="220" x2="680" y2="220"/>
+  <line class="scanline" x1="0" y1="240" x2="680" y2="240"/>
+  <line class="scanline" x1="0" y1="260" x2="680" y2="260"/>
+
+  <!-- Name group with glitch animation -->
+  <g class="name-group">
+    <!-- Red glow layer behind text -->
+    <text x="340" y="155" text-anchor="middle" font-family="'Press Start 2P', 'Courier New', monospace" font-size="42" font-weight="900" letter-spacing="4" fill="#ff0000" opacity="0.18" filter="none" style="font-size:46px;">ZTEXCORE</text>
+
+    <!-- Main name -->
+    <text x="340" y="152" text-anchor="middle" class="name-text">ZTEXCORE</text>
+  </g>
+
+  <!-- Tagline -->
+  <text x="340" y="198" text-anchor="middle" class="tagline">&gt; ACCESS GRANTED</text>
+  <text x="510" y="198" class="tagline cursor">_</text>
+
+  <!-- Corner decorations -->
+  <text x="14" y="22" font-family="monospace" font-size="11" fill="#550000">[SYS]</text>
+  <text x="580" y="22" font-family="monospace" font-size="11" fill="#550000">v2.0.1</text>
+  <text x="14" y="268" font-family="monospace" font-size="11" fill="#550000">ROOT@ZTEX</text>
+  <text x="590" y="268" font-family="monospace" font-size="11" fill="#550000">OK</text>
+
+</svg>
