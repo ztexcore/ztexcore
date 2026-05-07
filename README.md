@@ -3,21 +3,53 @@
 <img src="logo.svg" alt="Banner" width="100%">
 </div>
 
-<img align="left" alt="osaaaaakaaaaaaaaa" width="400" src="whocanitbenow.gif" />
-
-<h3 align="left">About Me:</h3>
+---
+<img align="left" alt="osaaaaakaaaaaaaaa" width="150" src="whocanitbenow.gif" />
+<img align="right" alt="osaaaaakaaaaaaaaa" width="150" src="whocanitbenow.gif" />
+<div align="center">
+<h3>About Me:</h3>
  <p>
  - Automation & Intelligent Systems Student | Low-Level Enthusiast. -<br>
   -Industrial automation & energy sector convergence.<br>
   -My passion lies at the intersection of hardware and software.<br>
   -Diving deep into custom OS environments & cybersecurity.<br>
  </p>
+</div>
 
-## Socials:
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ztexcore@gmail.com) 
+<h3 align="center">To send something:</h3>
+<div align="center">
+ 
+ [![Maily Maily](https://img.shields.io/badge/Maaaaa%20Mail!-6D4AFF?style=flat-square&logo=protonmail&logoColor=%23ffffff&color=%23000000)](mailto:ztexcore@proton.me)
+</div>
 
-# Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat-square&logo=c&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=flat-square&logo=gnu-bash&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=flat-square&logo=powershell&logoColor=white) ![Affinity Designer](https://img.shields.io/badge/affinity%20desginer-%231B72BE.svg?style=flat-square&logo=affinity-designer&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=flat-square&logo=blender&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat-square&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white) ![Gimp](https://img.shields.io/badge/Gimp-657D8B?style=flat-square&logo=gimp&logoColor=FFFFFF) ![Krita](https://img.shields.io/badge/Krita-203759?style=flat-square&logo=krita&logoColor=EEF37B)
+---
+<h3 align="center">What i know:</h3>
+<div align="center">
+
+<a href="https://archlinux.org" target="_blank"><img src="https://img.shields.io/badge/Arch_Linux-000000?style=flat-square&logo=archlinux&logoColor=white"></a>
+<a href="https://www.kali.org" target="_blank"><img src="https://img.shields.io/badge/Kali_Linux-000000?style=flat-square&logo=kalilinux&logoColor=white"></a>
+<a href="https://www.gentoo.org" target="_blank"><img src="https://img.shields.io/badge/Gentoo-000000?style=flat-square&logo=gentoo&logoColor=white"></a>
+<a href="https://www.debian.org" target="_blank"><img src="https://img.shields.io/badge/Debian-000000?style=flat-square&logo=debian&logoColor=white"></a>
+<a href="https://dwm.suckless.org" target="_blank"><img src="https://img.shields.io/badge/dwm-000000?style=flat-square&logo=dwm&logoColor=white"></a>
+<a href="https://hyprland.org" target="_blank"><img src="https://img.shields.io/badge/Hyprland-000000?style=flat-square&logo=hyprland&logoColor=white"></a>
+<a href="https://www.xfce.org" target="_blank"><img src="https://img.shields.io/badge/XFCE-000000?style=flat-square&logo=xfce&logoColor=white"></a>
+
+<a href="https://www.python.org" target="_blank"><img src="https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://img.shields.io/badge/HTML-000000?style=flat-square&logo=html5&logoColor=white"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS-000000?style=flat-square&logo=css3&logoColor=white"></a>
+<a href="https://tryhackme.com" target="_blank"><img src="https://img.shields.io/badge/TryHackMe-000000?style=flat-square&logo=tryhackme&logoColor=white"></a>
+<a href="https://overthewire.org" target="_blank"><img src="https://img.shields.io/badge/OverTheWire-000000?style=flat-square&logoColor=white"></a>
+<a href="https://www.hackthebox.com" target="_blank"><img src="https://img.shields.io/badge/HackTheBox-000000?style=flat-square&logo=hackthebox&logoColor=white"></a>
+<a href="https://picoctf.org" target="_blank"><img src="https://img.shields.io/badge/PicoCTF-000000?style=flat-square&logoColor=white"></a>
+<a href="https://www.root-me.org" target="_blank"><img src="https://img.shields.io/badge/Root_Me-000000?style=flat-square&logo=rootme&logoColor=white"></a>
+
+<a href="https://www.vim.org" target="_blank"><img src="https://img.shields.io/badge/Vim-000000?style=flat-square&logo=vim&logoColor=white"></a>
+<a href="https://neovim.io" target="_blank"><img src="https://img.shields.io/badge/Neovim-000000?style=flat-square&logo=neovim&logoColor=white"></a>
+<a href="https://www.gnu.org/software/bash" target="_blank"><img src="https://img.shields.io/badge/Bash-000000?style=flat-square&logo=gnubash&logoColor=white"></a>
+<a href="https://microsoft.com/powershell" target="_blank"><img src="https://img.shields.io/badge/PowerShell-000000?style=flat-square&logo=powershell&logoColor=white"></a>
+<a href="https://www.zsh.org" target="_blank"><img src="https://img.shields.io/badge/Zsh-000000?style=flat-square&logo=zsh&logoColor=white"></a>
+<a href="https://git-scm.com" target="_blank"><img src="https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=white"></a>
+</div>
 
 ---
 [![](https://komarev.com/ghpvc/?username=ztexcore&icon=6&color=4)](https://visitcount.itsvg.in)
