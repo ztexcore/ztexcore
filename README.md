@@ -1,11 +1,9 @@
 <div align="center">
-<!-- logo -->
-<img src="logo.svg" alt="Banner" width="100%">
+<img src="miku.gif" alt="Banner" width="100%">
 </div>
 
 ---
-<img align="left" alt="osaaaaakaaaaaaaaa" width="150" src="whocanitbenow.gif" />
-<img align="right" alt="osaaaaakaaaaaaaaa" width="150" src="whocanitbenow.gif" />
+<img align="left" alt="osaaaaakaaaaaaaaa" width="150" src="whocanitbenow.gif" /><img align="right" alt="osaaaaakaaaaaaaaa" width="150" src="whocanitbenow.gif" />
 <div align="center">
 <h3>About Me:</h3>
  <p>
@@ -22,7 +20,6 @@
  [![Maily Maily](https://img.shields.io/badge/Maaaaa%20Mail!-6D4AFF?style=flat-square&logo=protonmail&logoColor=%23ffffff&color=%23000000)](mailto:ztexcore@proton.me)
 </div>
 
----
 <h3 align="center">What i know:</h3>
 <div align="center">
 
@@ -52,9 +49,10 @@
 </div>
 
 ---
-[![](https://komarev.com/ghpvc/?username=ztexcore&icon=6&color=4)](https://visitcount.itsvg.in)
-
-  ## You can help me by Donating
+<h3 align="center">Just in case:</h3>
+<img align="center" alt="catcat" width="100%" src="kitty.gif" />
+<div align="center">
   
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/ztexcore) 
-  
+ [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/ztexcore) 
+</div>
+<img align="center" alt="dino" width="100%" src="dyaynosor.gif" />
