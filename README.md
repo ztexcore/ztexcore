@@ -1,27 +1,18 @@
-<div align="center">
-<img src="miku.gif" alt="Banner" width="100%">
-</div>
+<img align="center" alt="banner" width="100%" src="miku.gif" />
 
 ---
-<img align="left" alt="osaaaaakaaaaaaaaa" width="150" src="whocanitbenow.gif" /><img align="right" alt="osaaaaakaaaaaaaaa" width="150" src="whocanitbenow.gif" />
-<div align="center">
+<div align="left">
 <h3>About Me:</h3>
  <p>
- - Automation & Intelligent Systems Student | Low-Level Enthusiast. -<br>
-  -Industrial automation & energy sector convergence.<br>
-  -My passion lies at the intersection of hardware and software.<br>
-  -Diving deep into custom OS environments & cybersecurity.<br>
+   | Automation & Intelligent Systems Student | Low-Level Enthusiast |<br>
+   Industrial automation & energy sector convergence.<br>
+   My passion lies at the intersection of hardware and software.<br>
+   Diving deep into custom OS environments & cybersecurity.<br>
  </p>
 </div>
 
-<h3 align="center">To send something:</h3>
-<div align="center">
- 
- [![Maily Maily](https://img.shields.io/badge/Maaaaa%20Mail!-6D4AFF?style=flat-square&logo=protonmail&logoColor=%23ffffff&color=%23000000)](mailto:ztexcore@proton.me)
-</div>
-
-<h3 align="center">What i know:</h3>
-<div align="center">
+<h3 align="left">What i'm using now:</h3>
+<div align="left">
 
 <a href="https://archlinux.org" target="_blank"><img src="https://img.shields.io/badge/Arch_Linux-000000?style=flat-square&logo=archlinux&logoColor=white"></a>
 <a href="https://www.kali.org" target="_blank"><img src="https://img.shields.io/badge/Kali_Linux-000000?style=flat-square&logo=kalilinux&logoColor=white"></a>
@@ -49,10 +40,3 @@
 </div>
 
 ---
-<h3 align="center">Just in case:</h3>
-<img align="center" alt="catcat" width="100%" src="kitty.gif" />
-<div align="center">
-  
- [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/ztexcore) 
-</div>
-<img align="center" alt="dino" width="100%" src="dyaynosor.gif" />
