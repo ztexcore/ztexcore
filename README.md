@@ -1,4 +1,4 @@
-<img align="center" alt="banner" width="100%" src="miku.gif" />
+<img align="center" alt="banner" width="100%" src="ztexcore1.gif" />
 
 ---
 <div align="left">
